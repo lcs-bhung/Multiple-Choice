@@ -45,9 +45,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="studentAnswers:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Hbw-ei-CHj"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter the correct answers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LV-5L-WaT">
                                 <rect key="frame" x="59" y="221" width="294" height="21"/>
@@ -87,7 +84,7 @@
                         <outlet property="correctAnswers" destination="Hyu-bY-WgW" id="Hqp-6v-b3I"/>
                         <outlet property="numberOfQuestions" destination="8Aw-Oi-LMS" id="9OY-LW-GkZ"/>
                         <outlet property="result" destination="iTJ-lM-zeo" id="uea-G3-Sjl"/>
-                        <outlet property="studentAnswers" destination="ajo-56-EKc" id="BED-OM-Soy"/>
+                        <outlet property="studentAnswers" destination="ajo-56-EKc" id="9M9-Tb-8eo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
