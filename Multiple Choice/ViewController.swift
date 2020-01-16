@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         var offset = 0
         //make offset variable to determine the character location
         var score = 0
-        //Determine the score
+        //Determine the score 
         for character in studentAnswers {
             //Get the first answer in the student answers
             let indexStudent = studentAnswers.index(studentAnswers.startIndex, offsetBy: offset)
@@ -48,6 +48,9 @@ class ViewController: UIViewController {
             
             if studentAnswer == correctAnswer {
                 score += 1
+               
+                }
+                
             }
             
             offset += 1
@@ -55,14 +58,9 @@ class ViewController: UIViewController {
             
             result.text = "The student answered \(score) question(s) correctly"
         }
-        
-        
-        
-        
-        
     }
     
     
     
-}
+
 
